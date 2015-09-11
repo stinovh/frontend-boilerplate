@@ -6,20 +6,37 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: $pad;
+  padding-bottom: $pad;
 }
 
 // Backgrounds
-.bg-text {
-  background: #4a4a4a;
+.bg {
+  text{
+    background: #4a4a4a;
+  }
+  email{
+    background: #aeaeae;
+  }
+  twitter{
+    background: #00a3e1;
+  }
+  facebook{
+    background: #3b5998;
+  }
 }
-.bg-email {
-  background: #aeaeae;
+// Text edits
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
 }
-.bg-twitter {
-  background: #00a3e1;
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
 }
-.bg-facebook {
-  background: #3b5998;
+.text-center {
+  text-align: center;
+}
+.padded {
+  padding: $pad 0;
+
 }
